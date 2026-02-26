@@ -1,10 +1,32 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# =========================
+# Frontend (Next.js / Node)
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 
-# Virtual environments
-.venv
+# =========================
+# Backend (Python / FastAPI)
+# =========================
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# =========================
+# Database & ML Data
+# =========================
+backend/real_estate.db
+backend/data/raw/*.csv
+backend/data/processed/*.csv
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
